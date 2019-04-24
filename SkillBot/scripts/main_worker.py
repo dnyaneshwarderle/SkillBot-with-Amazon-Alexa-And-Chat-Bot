@@ -287,24 +287,6 @@ class MainWorker:
                                 reply_text = "It seems your are new to {}".format(each_question["language"])
                         reply_text+= " What do you want Test or Learn. Type 'I want to learn' or 'I want to take a test'"
 
-                # mydb = self.mongo_conn["sanfoundry"]
-                # mycol = mydb["document_set"]
-                # all_rec = mycol.find()
-                # for each_rec in all_rec:
-                #         question_list.append(each_rec["questions"])
-                #         # for each_id in question_list:
-                #         #         print(each_id)
-                # for each_list in question_list:
-                #         for each_id in each_list:
-                #                 for each_wrong in list_of_wrong_q:
-                #                         if each_id == each_wrong:
-                #                                 print("wronnnnnggggg", each_wrong)
-
-
-                # # for each_wron_q in list_of_wrong_q:
-                # #         if each_wron_q == mycol.find()
-                # print("wong list",list_of_wrong_q)
-                # print("result",cntr)
                 return reply_text, context_data
 
         def socket_receiver(self, *args):
