@@ -1,0 +1,105 @@
+<div class="wrapper">
+    <div class="page-header section-dark" style="background-image: url('assets/img/antoine-barres.jpg')">
+        <div class="filter"></div>
+        <div class="content-center">
+            <div class="container">
+                <div class="title-brand">
+                    <h1 class="presentation-title">Professor Sankii</h1>
+                    <div class="fog-low">
+                        <img src="assets/img/fog-low.png" alt="">
+                    </div>
+                    <div class="fog-low right">
+                        <img src="assets/img/fog-low.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="presentation-subtitle text-center">A chatbot For testing Your python skills</h2>
+            </div>
+        </div>
+        <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
+    </div>
+    <div class="main">
+        <app-components></app-components>
+        <div class="section section-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
+                        <h2 class="title">Completed with examples</h2>
+                        <p class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful kit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-image section-login" style="background-image: url('assets/img/login-image.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ml-auto mr-auto">
+                        <div class="card card-register">
+                            <h3 class="title">Welcome</h3>
+                            <div class="social-line text-center">
+                                <a href="#pablo" class="btn btn-neutral btn-facebook btn-just-icon">
+                                    <i class="fa fa-facebook-square"></i>
+                                </a>
+                                <a href="#pablo" class="btn btn-neutral btn-google btn-just-icon">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                                <a href="#pablo" class="btn btn-neutral btn-twitter btn-just-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                            <form class="register-form">
+                                <label>Email</label>
+                                <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus===true}">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="nc-icon nc-email-85"></i>
+                                    </span>
+                                  </div>
+
+                                    <input type="text" class="form-control" placeholder="Email" (focus)="focus=true" (blur)="focus=false" >
+                                </div>
+
+                                <label>Password</label>
+                                <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus1===true}">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="nc-icon nc-key-25"></i>
+                                    </span>
+                                  </div>
+                                    <input type="text" class="form-control" placeholder="Password" (focus)="focus1=true" (blur)="focus1=false" >
+                                </div>
+                                <button class="btn btn-danger btn-block btn-round">Register</button>
+                            </form>
+                            <div class="forgot">
+                                <a href="#" class="btn btn-link btn-danger">Forgot password?</a>
+                            </div>
+                        </div>
+                        <div class="col text-center" routerLinkActive="active">
+                            <a [routerLink]="['/signup']" class="btn btn-outline-neutral btn-round btn-lg">View Register Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-dark">
+            <div class="container">
+                <div class="row example-page">
+                    <div class="col-md-6 text-center" routerLinkActive="active">
+                        <a [routerLink]="['/landing']">
+                            <img src="./assets/img/examples/landing-page.JPG" alt="Rounded Image" class="img-rounded img-responsive" style="width: 100%">
+                            <a [routerLink]="['/landing']" class="btn btn-outline-neutral btn-round">Landing Page</a>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 text-center" routerLinkActive="active">
+                        <a [routerLink]="['/user-profile']">
+                            <img src="./assets/img/examples/profile-page.JPG" alt="Rounded Image" class="img-rounded img-responsive" style="width: 100%">
+                            <a [routerLink]="['/user-profile']" class="btn btn-outline-neutral btn-round">Profile Page</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>

@@ -1,0 +1,958 @@
+{
+    "beginner": {
+        "q1": {
+            "question_text": ["Is Python case sensitive when dealing with identifiers?"],
+            "options": [
+                { "answer_text": "A. yes", "answer": 1 },
+                { "answer_text": "B. no", "answer": 0 },
+                { "answer_text": "C. machine dependent", "answer": 0 },
+                { "answer_text": "D. none of the mentioned", "answer": 0 }
+            ]
+        },
+        "q2": {
+            "question_text": ["What is the maximum possible length of an identifier?"],
+            "options": [
+                { "answer_text": "A. 31 characters", "answer": 0 },
+                { "answer_text": "B. 63 characters", "answer": 0 },
+                { "answer_text": "C. 79 characters", "answer": 0 },
+                { "answer_text": "D. none of the mentioned", "answer": 1 }
+            ]
+
+        },
+        "q3":{
+            "question_text": ["Which of the following is invalid?"],
+            "options": [
+                { "answer_text": "A. _a = 1", "answer": 0 },
+                { "answer_text": "B. __a = 1", "answer": 0 },
+                { "answer_text": "C. __str__ = 1", "answer": 0 },
+                { "answer_text": "D. none of the mentioned", "answer": 1 }
+            ]
+        },
+
+        "q4":{
+            "question_text": [" Which of the following is an invalid variable?"],
+            "options": [
+                { "answer_text": "A. my_string_1", "answer": 0 },
+                { "answer_text": "B. 1st_string ", "answer": 1 },
+                { "answer_text": "C. foo", "answer": 0 },
+                { "answer_text": "D. _", "answer": 0 }
+            ]
+        },
+        "q5":{
+            "question_text": ["Why are local variable names beginning with an underscore discouraged?"],
+            "options": [
+                { "answer_text": "A. they are used to indicate a private variables of a classc", "answer": 1 },
+                { "answer_text": "B. they confuse the interpreter", "answer": 0 },
+                { "answer_text": "C. they are used to indicate global variables", "answer": 0 },
+                { "answer_text": "D. they slow down execution", "answer": 0 }
+            ]
+        },
+        "q6":{
+            "question_text": ["Which of the following is not a keyword?"],
+            "options": [
+                { "answer_text": "A. exal", "answer": 1 },
+                { "answer_text": "B. assert", "answer": 0 },
+                { "answer_text": "C. nonlocal", "answer": 0 },
+                { "answer_text": "D. pass", "answer": 0 }
+            ]
+        },
+        "q7":{
+            "question_text": ["All keywords in Python are in"],
+            "options": [
+                { "answer_text": "A. lower case", "answer": 0 },
+                { "answer_text": "B. UPPER CASE", "answer": 0 },
+                { "answer_text": "C. Capitalized", "answer": 0 },
+                { "answer_text": "D. None of the mentioned", "answer": 1 }
+            ]
+        },
+        "q8":{
+            "question_text": ["Which of the following is true for variable names in Python?"],
+            "options": [
+                { "answer_text": "A. unlimited length", "answer": 1 },
+                { "answer_text": "B. all private members must have leading and trailing underscores", "answer": 0 },
+                { "answer_text": "C. underscore and ampersand are the only two special characters allowed", "answer": 0 },
+                { "answer_text": "D. none of the mentioned", "answer": 0 }
+            ]
+        },
+        "q9":{
+            "question_text": ["Which of the following is an invalid statement?"],
+            "options": [
+                { "answer_text": "A. abc = 1,000,000", "answer": 0 },
+                { "answer_text": "B. a b c = 1000 2000 3000", "answer": 1 },
+                { "answer_text": "C. a,b,c = 1000, 2000, 3000", "answer": 0 },
+                { "answer_text": "D. a_b_c = 1,000,000", "answer": 0 }
+            ]
+        },
+        "q10":{
+            "question_text": ["Which of the following cannot be a variable?"],
+            "options": [
+                { "answer_text": "A. __init__", "answer": 0 },
+                { "answer_text": "B. in", "answer": 1 },
+                { "answer_text": "C. it", "answer": 0 },
+                { "answer_text": "D. on", "answer": 0 }
+            ]
+        },
+        "q11":{
+            "question_text": ["Which is the correct operator for power(xy)?"],
+            "options": [
+                { "answer_text": "A. X^y", "answer": 0 },
+                { "answer_text": "B. X**y", "answer": 1 },
+                { "answer_text": "C. X^^y", "answer": 0 },
+                { "answer_text": "D. None of the mentioned", "answer": 0 }
+            ]
+        },
+        "q12":{
+            "question_text": ["Which one of these is floor division?"],
+            "options": [
+                { "answer_text": "A. /", "answer": 0 },
+                { "answer_text": "B. //", "answer": 1 },
+                { "answer_text": "C. %", "answer": 0 },
+                { "answer_text": "D. None of the mentioned", "answer": 0 }
+            ]
+        },
+        "q13":{
+            "question_text": ["What is the order of precedence in python?",
+                "i) Parentheses",
+                "ii) Exponential",
+                "iii) Multiplication",
+                "iv) Division",
+                "v) Addition",
+                "vi) Subtraction"],
+            "options": [
+                { "answer_text": "A. i,ii,iii,iv,v,vi", "answer": 1 },
+                { "answer_text": "B. ii,i,iii,iv,v,vi", "answer": 0 },
+                { "answer_text": "C. ii,i,iv,iii,v,vi", "answer": 0 },
+                { "answer_text": "D. i,ii,iii,iv,vi,v", "answer": 0 }
+            ]
+        },
+        "q14":{
+            "question_text": ["What is answer of this expression, 22 % 3 is?"],
+            "options": [
+                { "answer_text": "A. 7", "answer": 0 },
+                { "answer_text": "B. 1", "answer": 1 },
+                { "answer_text": "C. 0", "answer": 0 },
+                { "answer_text": "D. 5", "answer": 0 }
+            ]
+        },
+        "q15":{
+            "question_text": ["Mathematical operations can be performed on a string. State whether true or false."],
+            "options": [
+                { "answer_text": "A. True", "answer": 0 },
+                { "answer_text": "B. False", "answer": 1 }
+            ]
+        },
+        "q16":{
+            "question_text": ["Operators with the same precedence are evaluated in which manner?"],
+            "options": [
+                { "answer_text": "A. Left to Right", "answer": 1 },
+                { "answer_text": "B. Right to Left", "answer": 0 },
+                { "answer_text": "C. Can’t say", "answer": 0 },
+                { "answer_text": "D. None of the mentioned", "answer": 0 }
+            ]
+        },
+        "q17":{
+            "question_text": ["What is the output of this expression, 3*1**3?"],
+            "options": [
+                { "answer_text": "A. 27", "answer": 0 },
+                { "answer_text": "B. 9", "answer": 0 },
+                { "answer_text": "C. 3", "answer": 1 },
+                { "answer_text": "D. 1", "answer": 0 }
+            ]
+        },
+        "q18":{
+            "question_text": ["Which one of the following have the same precedence?"],
+            "options": [
+                { "answer_text": "A. Addition and Subtraction", "answer": 1 },
+                { "answer_text": "B. Multiplication and Division", "answer": 0 },
+                { "answer_text": "C. Both Addition and Subtraction AND Multiplication and Division", "answer": 0 },
+                { "answer_text": "D. None of the mentioned", "answer": 0 }
+            ]
+        },
+        "q19":{
+            "question_text": ["The expression Int(x) implies that the variable x is converted to integer. State whether true or false."],
+            "options": [
+                { "answer_text": "A. True", "answer": 1 },
+                { "answer_text": "B. False", "answer": 0 },
+            ]
+        },
+        "q20":{
+            "question_text": ["Which one of the following have the highest precedence in the expression?"],
+            "options": [
+                { "answer_text": "A. Exponential", "answer": 0 },
+                { "answer_text": "B. Addition", "answer": 0 },
+                { "answer_text": "C. Multiplication", "answer": 0 },
+                { "answer_text": "D. Parentheses", "answer": 1 }
+            ]
+        },
+        "q21":{
+            "question_text": ["Which of these in not a core data type?"],
+            "options": [
+                { "answer_text": "A. Lists", "answer": 0 },
+                { "answer_text": "B. Dictionary", "answer": 0 },
+                { "answer_text": "C. Tuples", "answer": 0 },
+                { "answer_text": "D. Class", "answer": 1 }
+            ]
+        },
+        "q22":{
+            "question_text": ["Given a function that does not return any value, What value is thrown by default when executed in shell."],
+            "options": [
+                { "answer_text": "A. int", "answer": 0 },
+                { "answer_text": "B. bool", "answer": 0 },
+                { "answer_text": "C. void", "answer": 0 },
+                { "answer_text": "D. None", "answer": 1 }
+            ]
+        },
+        "q23":{
+            "question_text": ["Following set of commands are executed in shell, what will be the output?",
+                ">>>str=","hello",
+                ">>>str[:2]",
+                ">>>"],
+            "options": [
+                { "answer_text": "A. he", "answer": 1 },
+                { "answer_text": "B. lo", "answer": 0 },
+                { "answer_text": "C. olleh", "answer": 0 },
+                { "answer_text": "D. hello", "answer": 0 }
+            ]
+        },
+        "q24":{
+            "question_text": ["Which of the following will run without errors ?"],
+            "options": [
+                { "answer_text": "A. round(45.8)", "answer": 1 },
+                { "answer_text": "B. round(6352.898,2,5)", "answer": 0 },
+                { "answer_text": "C. round()", "answer": 0 },
+                { "answer_text": "D. round(7463.123,2,1)", "answer": 0 }
+            ]
+        },
+        "q25":{
+            "question_text": ["What is the return type of function id ?"],
+            "options": [
+                { "answer_text": "A. int", "answer": 1 },
+                { "answer_text": "B. float", "answer": 0 },
+                { "answer_text": "C. bool", "answer": 0 },
+                { "answer_text": "D. dict", "answer": 0 }
+            ]
+        },
+        "q26":{
+            "question_text": [" In python we do not specify types,it is directly interpreted by the compiler, so consider the following operation to be performed.",
+                ">>>x = 13 ? 2",
+                "objective is to make sure x has a integer value, select all that apply (python 3.xx)"],
+            "options": [
+                { "answer_text": "A. x = 13 // 2", "answer": 0 },
+                { "answer_text": "B. x = int(13 / 2)", "answer": 0 },
+                { "answer_text": "C. x = 13 % 2", "answer": 0 },
+                { "answer_text": "D. All of the mentioned", "answer": 1 }
+            ]
+        },
+        "q27":{
+            "question_text": ["What error occurs when you execute?",
+                "apple = mango"],
+            "options": [
+                { "answer_text": "A. SyntaxError", "answer": 0 },
+                { "answer_text": "B. NameError", "answer": 1 },
+                { "answer_text": "C. ValueError", "answer": 0 },
+                { "answer_text": "D. TypeError", "answer": 0 }
+            ]
+        },
+        "q28":{
+            "question_text": ["Carefully observe the code and give the answer.",
+                "def example(a):",
+                    "a = a + '2'",
+                    "a = a*2",
+                    "return a",
+                ">>>example("hello")"],
+            "options": [
+                { "answer_text": "A. indentation Error", "answer": 1 },
+                { "answer_text": "B. cannot perform mathematical operation on strings", "answer": 0 },
+                { "answer_text": "C. hello2", "answer": 0 },
+                { "answer_text": "D. hello2hello2", "answer": 0 }
+            ]
+        },
+        "q29":{
+            "question_text": ["What data type is the object below ?",
+                "L = [1, 23, ‘hello’, 1]."],
+            "options": [
+                { "answer_text": "A. list", "answer": 1 },
+                { "answer_text": "B. dictionary", "answer": 0 },
+                { "answer_text": "C. array", "answer": 0 },
+                { "answer_text": "D. tuple", "answer": 0 }
+            ]
+        },
+        "q30":{
+            "question_text": ["aa", "bbb"],
+            "options": [
+                { "answer_text": "A. ", "answer": 0 },
+                { "answer_text": "B. ", "answer": 0 },
+                { "answer_text": "C. ", "answer": 1 },
+                { "answer_text": "D. ", "answer": 0 }
+            ]
+        },
+        "q31":{
+            "question_text": ["aa", "bbb"],
+            "options": [
+                { "answer_text": "A. ", "answer": 0 },
+                { "answer_text": "B. ", "answer": 0 },
+                { "answer_text": "C. ", "answer": 1 },
+                { "answer_text": "D. ", "answer": 0 }
+            ]
+        },
+        "q32":{
+            "question_text": ["aa", "bbb"],
+            "options": [
+                { "answer_text": "A. ", "answer": 0 },
+                { "answer_text": "B. ", "answer": 0 },
+                { "answer_text": "C. ", "answer": 1 },
+                { "answer_text": "D. ", "answer": 0 }
+            ]
+        }
+    },
+    "intermediate":{
+        "q1": {
+            "question_text": ["- What are the key features of Python?"],
+            "options": [
+                { "answer_text": "A. Interpreted Language", "answer": 0 },
+                { "answer_text": "B. Dynamically Typed", "answer": 0 },
+                { "answer_text": "C. Object oriented Programming Language", "answer": 0 },
+                { "answer_text": "D. All of the above", "answer": 1 }
+            ]
+        },
+        "q2": {
+            "question_text": ["- What is the difference between deep and shallow copy?"],
+            "options": [
+                { "answer_text": "A. Shallow copy is used to copy the reference pointers just like it copies the values.", "answer": 1 },
+                { "answer_text": "B. It makes the reference to an object and the new object that is pointed by some other object gets stored.", "answer": 0 },
+                { "answer_text": "C. The changes made in the original copy won’t affect any other copy that uses the object.", "answer": 0 },
+                { "answer_text": "D. Shallow copy makes execution of the program slower due to making certain copies for each object that is been called.", "answer": 0 }
+            ]
+        },
+        "q3": {
+            "question_text": ["- How is Multithreading achieved in Python?"],
+            "options": [
+                { "answer_text": "A. It has a multi-threading package but if you want to multi-thread to speed your code up, then it’s usually not a good idea to use it.", "answer": 0 },
+                { "answer_text": "B. This happens very late ", "answer": 0 },
+                { "answer_text": "C. Python has a construct called the Global Independent Lock (GIL). ", "answer": 0 },
+                { "answer_text": "D. None of the above", "answer": 0 }
+            ]
+        },
+        "q4": {
+            "question_text": ["- How can the ternary operators be used in python?"],
+            "options": [
+                { "answer_text": "A. This consists of the true or false", "answer": 0 },
+                { "answer_text": "B. This consists of the Integers & float", "answer": 0 },
+                { "answer_text": "C. The Ternary operator is the operator that is used to show the conditional statements.", "answer": 1 },
+                { "answer_text": "D. Ternary operators also known as logical expressions", "answer": 0 }
+            ]
+        },
+        "q5": {
+            "question_text": ["- How is memory managed in Python?"],
+            "options": [
+                { "answer_text": "A. The programmer does has the access to this private heap.", "answer": 0 },
+                { "answer_text": "B. Python objects and data structures are not located in a private heap.", "answer": 0 },
+                { "answer_text": "C. Python does not have an inbuilt garbage collector,", "answer": 1 },
+                { "answer_text": "D. Memory management in python is managed by Python private heap space.", "answer": 0 }
+            ]
+        },
+        "q6": {
+            "question_text": ["- Explain Inheritance in Python."],
+            "options": [
+                { "answer_text": "A. Inheritance allows One class to gain all the members of another class. ", "answer": 1 },
+                { "answer_text": "B. Inheritance allows two class to gain all the members(say attributes and methods) of another class. ", "answer": 0 },
+                { "answer_text": "C. nheritance allows multiple class to gain all the members(say attributes and methods) of another class. ", "answer": 1 },
+                { "answer_text": "D. Inheritance does not provides code reusability, makes it difficult", "answer": 0 }
+            ]
+        },
+        "q7": {
+            "question_text": ["- Explain what Flask is and its benefits?"],
+            "options": [
+                { "answer_text": "In a flask, a session uses a unsigned cookie so the user can look at the session contents and modify", "answer": 0 },
+                { "answer_text": "Werkzeug and Jinja2 are two of its libraries. ", "answer": 0 },
+                { "answer_text": "Flask is a web microframework for Python based on “Werkzeug, Jinja2 and good intentions” BSD license.", "answer": 1 },
+                { "answer_text": "A session basically allows does not allow you to remember information from one request ", "answer": 0 }
+            ]
+        },
+        "q8": {
+            "question_text": ["- What is the usage of help() and dir() function in Python?"],
+            "options": [
+                { "answer_text": "A. The help() function is used to display the documentation string & the dir() function is used to display the defined symbols. ", "answer": 1 },
+                { "answer_text": "B. A is True", "answer": 0 },
+                { "answer_text": "C. A is False", "answer": 0 },
+                { "answer_text": "D. None of the above", "answer": 0 }
+            ]
+        },
+        "q9": {
+            "question_text": ["- Whenever Python exits, why isn’t all the memory de-allocated?"],
+            "options": [
+                { "answer_text": "A. The objects that are referenced from the global namespaces are always de-allocated.", "answer": 0 },
+                { "answer_text": "B. It is impossible to de-allocate those portions of memory that are reserved by the C library.", "answer": 1 },
+                { "answer_text": "C. Python would will allocate/destroy every other object." , "answer": 1 },
+                { "answer_text": "D. None of the above", "answer": 0 }
+            ]
+        },
+        "q10": {
+            "question_text": ["- What is dictionary in Python?"],
+            "options": [
+                { "answer_text": "A. It defines one-to-one relationship between keys and values.", "answer": 1 },
+                { "answer_text": "B. It defines one-to-many relationship between keys and values.", "answer": 0 },
+                { "answer_text": "C. It defines many-to-many relationship between keys and values.", "answer": 0 },
+                { "answer_text": "D. It defines many-to-one relationship between keys and values.", "answer": 0 }
+            ]
+        },
+        "q11": {
+            "question_text": ["- What is monkey patching in Python?"],
+            "options": [
+                { "answer_text": "A. The term monkey patch only refers to dynamic modifications of a class or module at run-time.", "answer": 1 },
+                { "answer_text": "B. The term monkey patch refers to dynamic modifications of a class or module at compile-time.", "answer": 0 },
+                { "answer_text": "C. The term monkey patch refers to dynamic modifications of a class or module at run-time.", "answer": 0 },
+                { "answer_text": "D. None of the above", "answer": 0 }
+            ]
+        },
+        "q12": {
+            "question_text": ["- What does this mean: *args, **kwargs? And why would we use it?"],
+            "options": [
+                { "answer_text": "A. None of these", "answer": 0 },
+                { "answer_text": "B. It cannot be used to pass the values of a dictionary as keyword arguments.", "answer": 0 },
+                { "answer_text": "C. The identifiers args and kwargs are a convention,", "answer": 1 },
+                { "answer_text": "D. We use *args when we are sure how many arguments are going to be passed in a function", "answer": 0 }
+            ]
+        },
+        "q13": {
+            "question_text": ["- Write a one-liner that will count the number of capital letters in a file. Your code should work even if the file is too big to fit in memory."],
+            "options": [
+                { "answer_text": "A. count sum(1 for line in fh for character in line if character.isupper())", "answer": 1 },
+                { "answer_text": "B. count mul(1 for line in fh for character in line if character.isupper())", "answer": 0 },
+                { "answer_text": "C. count sum(1 for line in fh for character in line if character.upper())", "answer": 0 },
+                { "answer_text": "D. count add(1 for line in fh for character in line if character.upper())", "answer": 0 }
+            ]
+        },
+        "q14": {
+            "question_text": ["- What are negative indexes and why are they used?"],
+            "options": [
+                { "answer_text": "A. Because the sequences in Python are not indexed ", "answer": 0 },
+                { "answer_text": "B. The negative index is not allowed to show the index to represent the string in incorrect order.", "answer": 0 },
+                { "answer_text": "C. None of these", "answer": 0 },
+                { "answer_text": "D. The negative index is used to remove any new-line spaces from the string and allow the string to except the last character", "answer": 1 }
+            ]
+        },
+
+        "ANSWERS PENDING FROM HERE":{},
+        
+        "q15": {
+            "question_text":["- How can you randomize the items of a list in place in Python?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q16": {
+            "question_text":["- What is the process of compilation and linking in python?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q17": {
+            "question_text":["- Write a sorting algorithm for a numerical dataset in Python."],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q18": {
+            "question_text":["- Looking at the below code, write down the final values of A0, A1, …An."],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q19": {
+            "question_text":["- Explain split(), sub(), subn() methods of “re” module in Python."],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q20": {
+            "question_text":["- How can you generate random numbers in Python?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q21": {
+            "question_text":["- What is the difference between range & xrange?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q22": {
+            "question_text":["- What is pickling and unpickling?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q23": {
+            "question_text":["- Mention the differences between Django, Pyramid and Flask."],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q24": {
+            "question_text":["- Discuss the Django architecture."],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q25": {
+            "question_text":["- Explain how you can set up the Database in Django."],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q26": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q27": {
+            "question_text":["-Which of the following is the possible way to load an array from a text data file in Python?"],
+            "options":[
+                { "answer_text": "A. numpy.loadtxt ();", "answer":0},
+                { "answer_text": "B. scipy.loadtxt ();", "answer":0},
+                { "answer_text": "C. matplot.loadtxt ();", "answer":0},
+                { "answer_text": "D. None the above", "answer":0}
+            ]
+        },
+        "q28": {
+            "question_text":["- State out of the given which of the provide functions could be used in order to read data from the file using file descriptor?"],
+            "options":[
+                { "answer_text": "A. os.read() ", "answer":0},
+                { "answer_text": "B. os.reader()", "answer":0},
+                { "answer_text": "C. os.quick_read()", "answer":0},
+                { "answer_text": "D. os.scould()", "answer":0}
+            ]
+        },
+        "q29": {
+            "question_text":["- Peruse  the given options and state which of the following function of diotionary get all  the values  from the dictionary?"],
+            "options":[
+                { "answer_text": "A. value() ", "answer":0},
+                { "answer_text": "B. getvalues()", "answer":0},
+                { "answer_text": "C. values()", "answer":0},
+                { "answer_text": "D. None of these", "answer":0}
+            ]
+        },
+        "q30": {
+            "question_text":["- Which if the following is the python library  which is built on the top of matplotlib and pandas for the ease of data plotting?"],
+            "options":[
+                { "answer_text": "A. seapy", "answer":0},
+                { "answer_text": "B. seaborn", "answer":0},
+                { "answer_text": "C. arguments", "answer":0},
+                { "answer_text": "D. seamat", "answer":0}
+            ]
+        },
+        "q31": {
+            "question_text":["- Go through the given options and state which of the following function checks in a string that all characters are digits?"],
+            "options":[
+                { "answer_text": "A. capitalize()", "answer":0},
+                { "answer_text": "B. shuffle(lst)", "answer":0},
+                { "answer_text": "C. isalnum()", "answer":0},
+                { "answer_text": "D. isdigit()", "answer":0}
+            ]
+        },
+        "q32": {
+            "question_text":["- Is used when a user only wants to render a single router from the several routes which are defined.It will render the specified route in the first match only."],
+            "options":[
+                { "answer_text": "A. <div>", "answer":0},
+                { "answer_text": "B. <render>", "answer":0},
+                { "answer_text": "C. <switch>", "answer":0},
+                { "answer_text": "D. None", "answer":0}
+            ]
+        },
+        "q33": {
+            "question_text":["- Whenver a class that has inherited an interface explicitly implements the methods of that class is know as"],
+            "options":[
+                { "answer_text": "A. implicit  implementation", "answer":0},
+                { "answer_text": "B. explicit implementation", "answer":0},
+                { "answer_text": "C. abstract implementation", "answer":0},
+                { "answer_text": "D. None", "answer":0}
+            ]
+        },
+        "q34": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q35": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q36": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q37": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q38": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q39": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q40": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q41": {
+            "question_text":["- Give an example how you can write a VIEW in Django?"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q42": {
+            "question_text":[""],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        }
+    },
+
+    "Advanced": {
+        "q1": {
+            "question_text":["Consider the given statements and state that which of the following is correct in relation in python???"],
+            "options":[
+                { "answer_text": "A. Python is designed to be highly readable", "answer":0},
+                { "answer_text": "B. This is a high level object oriented scripting language", "answer":0},
+                { "answer_text": "C. It makes the use of english keywords commonly", "answer":0},
+                { "answer_text": "D. All of these", "answer":0}
+            ]
+        },
+        "q2": {
+            "question_text":["which of these is the definition for packages in python?"],
+            "options":[
+                { "answer_text": "A. a folder of python modules", "answer":0},
+                { "answer_text": "B. a set of programs making use of python modules", "answer":0},
+                { "answer_text": "C. a set of main modules", "answer":0},
+                { "answer_text": "D. a number of files containing python definitions and statements", "answer":0}
+            ]
+        },
+        "q3": {
+            "question_text":["what feature we use for converting an arbitrary python object to a string so that it can be used as a dictionary"],
+            "options":[
+                { "answer_text": "A. finding", "answer":0},
+                { "answer_text": "B. pickling", "answer":0},
+                { "answer_text": "C. allocating", "answer":0},
+                { "answer_text": "D. memory mnagement", "answer":0}
+            ]
+        },
+        "q4": {
+            "question_text":["consider the given options under development using python and specify that exactly which oif the provided option is correct about tuples in python?"],
+            "options":[
+                { "answer_text": "A. a tuple another sequence data type that is similar to the list", "answer":0},
+                { "answer_text": "B. a tuple consists of a number of values separated by commas. ", "answer":0},
+                { "answer_text": "C. Unlike lists ,however ,tuples are enclosed within paranthesis.", "answer":0},
+                { "answer_text": "D. all", "answer":0}
+            ]
+        },
+        "q5": {
+            "question_text":["peruse the given option in context to python and specify that which of the givenfunctions could be used to read the data from the file using file descriptor"],
+            "options":[
+                { "answer_text": "A. ", "answer":0},
+                { "answer_text": "B. ", "answer":0},
+                { "answer_text": "C. ", "answer":0},
+                { "answer_text": "D. ", "answer":0}
+            ]
+        },
+        "q6": {
+            "question_text":["what is the use of functools.partial() function in python?"],
+            "options":[
+                { "answer_text": "A. partial merger of data", "answer":0},
+                { "answer_text": "B. to make higher order function", "answer":0},
+                { "answer_text": "C. for dividing data partially", "answer":0},
+                { "answer_text": "D. for comparison between data", "answer":0}
+            ]
+        },
+        "q7": {
+            "question_text":["which of the following dont have gil?"],
+            "options":[
+                { "answer_text": "A. Jython", "answer":0},
+                { "answer_text": "B. IronPython", "answer":0},
+                { "answer_text": "C. both", "answer":0},
+                { "answer_text": "D. none", "answer":0}
+            ]
+        },
+        "q8": {
+            "question_text":["Suppose you have list named mylkist having number.you want to crearte a new list mynewlist,whose elements are double",
+                "of the elemnets in mylist.(If elements of mylist code are 10,20,30 then the elements of mynewlist will 20,40,60 ).choose",
+                "the correct code"],
+            "options":[
+                { "answer_text": "A. mynewlist=[x*2 for x in mylist]", "answer":0},
+                { "answer_text": "B. mynewlist=2*mylist", "answer":0},
+                { "answer_text": "C. mynewlist=[x*2*mylist]", "answer":0},
+                { "answer_text": "D. mynewlist=set(mylist)", "answer":0}
+            ]
+        },
+        "q9": {
+            "question_text":["Quandl API for python wraps the .....RESR API to return pandas DataFrames with timeseries indexes"],
+            "options":[
+                { "answer_text": "A. Quandl", "answer":0},
+                { "answer_text": "B. PyDataStream", "answer":0},
+                { "answer_text": "C. PyData", "answer":0},
+                { "answer_text": "D. None", "answer":0}
+            ]
+        },
+        "q10": {
+            "question_text":["output of following code",
+                "code:",
+                "i=5",
+                "while True:",
+                    "if i%0011 == 0:",
+                        "break;",
+                    "print(i)",
+                    "i += 1"],
+            "options":[
+                { "answer_text": "A. 5 6 7 8", "answer":0},
+                { "answer_text": "B. 5 6 7 8 9 10", "answer":0},
+                { "answer_text": "C. 5 6", "answer":0},
+                { "answer_text": "D. error", "answer":0}
+            ]
+        },
+        "q11": {
+            "question_text":["output of following code",
+                "code:",
+                "print('total of {0} and {1} is {2}'.format(3, 10, 13))"],
+            "options":[
+                { "answer_text": "A. error", "answer":0},
+                { "answer_text": "B. total of 3 and 10 is 13", "answer":0},
+                { "answer_text": "C. total of 0 and 1 is 2", "answer":0},
+                { "answer_text": "D. None", "answer":0}
+            ]
+        },
+        "q12": {
+            "question_text":["output of following code",
+                "code:",
+                "mylist=[10,20,30,100,500,600]"],
+            "options":[
+                { "answer_text": "A. mynewlist=mylist", "answer":0},
+                { "answer_text": "B. mynewlist=list(mylist)", "answer":0},
+                { "answer_text": "C. mynewlist=fork(mylist)", "answer":0},
+                { "answer_text": "D. mynewlist=set(mylist)", "answer":0}
+            ]
+        }
+    },
+    "q13": {
+        "question_text":["which among of the following is the ordered collection class?"],
+        "options":[
+            { "answer_text": "A. bitArray", "answer":0},
+            { "answer_text": "B. Queue", "answer":0},
+            { "answer_text": "C. HashTable", "answer":0},
+            { "answer_text": "D. Stack", "answer":0}
+        ]
+    },
+    "q14": {
+        "question_text":["Which of the following is used for machine learning in python?"],
+        "options":[
+            { "answer_text": "A. scikit-learn", "answer":0},
+            { "answer_text": "B. seaborn-learn", "answer":0},
+            { "answer_text": "C. stats-learn", "answer":0},
+            { "answer_text": "D. none", "answer":0}
+        ]
+    },
+    "q15": {
+        "question_text":["Python can convert any value to a string by making use of function.",
+            "Select the function fromthe following",
+            "1)repr()",
+            "2)str()",
+            "3)pre()",
+            "4)convert()"],
+        "options":[
+            { "answer_text": "A. 1 and 2", "answer":0},
+            { "answer_text": "B. 2 and 3", "answer":0},
+            { "answer_text": "C. 3 and 4", "answer":0},
+            { "answer_text": "D. 4 and 1", "answer":0}
+        ]
+    },
+    "q16": {
+        "question_text":["output of following code",
+            "code:",
+            "print('*','xyzqwe'.center(6),'*',sep='')"],
+        "options":[
+            { "answer_text": "A. * xyzqw *", "answer":0},
+            { "answer_text": "B. * xyzqw *", "answer":0},
+            { "answer_text": "C. *xyzqw *", "answer":0},
+            { "answer_text": "D. * xyzqw*", "answer":0}
+        ]
+    },
+    "q17": {
+        "question_text":["output of following code",
+            "code:",
+            "print 0xD + 0xE + 0xF:"],
+        "options":[
+            { "answer_text": "A. Error", "answer":0},
+            { "answer_text": "B. OxDOxEOxF", "answer":0},
+            { "answer_text": "C. Ox22", "answer":0},
+            { "answer_text": "D. 33", "answer":0}
+        ]
+    },
+    "q18": {
+        "question_text":["Consider the following given options under development using python and specify that exactly which of the provided option is correct about tuples in python? "],
+        "options":[
+            { "answer_text": "A. A tuple is another sequence data type that is similar to the list", "answer":0},
+            { "answer_text": "B. A tuple consists  of a number of values separated to commas", "answer":0},
+            { "answer_text": "C. Unlike lists ,however , tuples are enclosed within paranthesis", "answer":0},
+            { "answer_text": "D. All of these", "answer":0}
+        ]
+    },
+    "q19": {
+        "question_text":["Suppose you are using Selenium WebDriver API in python.You would like to navigate to google home page.(Assume you have created a new instance", 
+        "of the internet explorer browser and it can be referred by the object &quot;driver&quot;).Choose the correct option to do this"],
+        "options":[
+            { "answer_text": "A. driver.get(http://www.google.com)", "answer":0},
+            { "answer_text": "B. driver.get{http://www.google.com}", "answer":0},
+            { "answer_text": "C. $driver->get(http://www.google.com)", "answer":0},
+            { "answer_text": "D. driver.Url=http://www.google.com,", "answer":0}
+        ]
+    },
+    "q20": {
+        "question_text":["which among the following is not an interface declared in System.Collection namespace?"],
+        "options":[
+            { "answer_text": "A. IDictionaryComparrer", "answer":0},
+            { "answer_text": "B. lenumberable", "answer":0},
+            { "answer_text": "C. lenumerator", "answer":0},
+            { "answer_text": "D. icomparer", "answer":0}
+        ]
+    },
+    "q21": {
+        "question_text":["Which of the following object has a method cov to compute covariance between series?"],
+        "options":[
+            { "answer_text": "A. Series", "answer":0},
+            { "answer_text": "B. Dataframe", "answer":0},
+            { "answer_text": "C. panel", "answer":0},
+            { "answer_text": "D. None", "answer":0}
+        ]
+    },
+    "q22": {
+        "question_text":["output of following code",
+            "code:",
+            "#!/usr/bin/python",
+            "Def foo(x = []):",
+                "x.append(1)",
+                "return x",
+            "Foo()",
+            "Foo()"],
+         "options":[
+             { "answer_text": "A. [1][1,1]", "answer":0},
+             { "answer_text": "B. [1,1][1,1]", "answer":0},
+             { "answer_text": "C. [1,1][1]", "answer":0},
+             { "answer_text": "D. [1][1]", "answer":0}
+        ]
+    },
+    "q23": {
+        "question_text":["Consider the following code and choose output from given to print tinytuple*2?"],
+        "options":[
+            { "answer_text": "A. (123,'test')*2", "answer":0},
+            { "answer_text": "B. (123,'test',123,'test')", "answer":0},
+            { "answer_text": "C. error", "answer":0},
+            { "answer_text": "D. None", "answer":0}
+        ]
+    },
+    "q24": {
+        "question_text":["What is the purpose of ?#!/usr/bin/python?On the first line in the above code ?Is there any advantage"],
+        "options":[
+            { "answer_text": "A. You can specify which compiler willbe used to run a script on a system", "answer":0},
+            { "answer_text": "B. you can specify which server will be used to run a script on a system", "answer":0},
+            { "answer_text": "C. you can specify which language will be used to run a script on a system", "answer":0},
+            { "answer_text": "D. you can specify which Interpreter will be used to run a script on a system", "answer":0}
+        ]
+    },
+    "q25": {
+        "question_text":["output of following code",
+            "code:",
+            "class tester:",
+            "def__init__(self,id):",
+            "self.id=str(id)",
+            "id='224'",
+            
+            "temp=tester(12)",
+            "print temp.id"],
+        "options":[
+            { "answer_text": "A. 244", "answer":0},
+            { "answer_text": "B. error", "answer":0},
+            { "answer_text": "C. 12", "answer":0},
+            { "answer_text": "D. None", "answer":0}
+        ]
+    }
+    
+}

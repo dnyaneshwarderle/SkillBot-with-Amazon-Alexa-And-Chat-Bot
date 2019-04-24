@@ -1,0 +1,49 @@
+{
+   "q_id":"1",
+   "question" : "print(“Hello World”)
+   Have you seen this statement before?",
+   "options":[
+       "a)Ofcourse , it’s my bread and butter",
+       "b)I know this statement but I don’t know what the output will be",
+       "c)I have seen it but I don’t exactly know what it means",
+       "d) Looks like English alphabets to me"
+   ],
+   "language": "python",
+   "weightage":[ 8, 4, 6, 2]
+},
+{
+   "q_id":"2",
+   "question" : "Which of the following best describes you experience in python?",
+   "options":[
+       "a)I can code an entire program all by myself",
+       "b)I can code but I need to refer to the code snippets and documentations online",
+       "c) Python isn’t crucial to my job so it’s hard for me to describe it",
+       "d)I have to start from the basics"
+   ],
+   "language": "python",
+   "weightage":[ 8, 4, 6, 2]
+},
+{
+   "q_id":"3",
+   "question" : "Which according to you best of describes python?",
+   "options":[
+       "a)It’s an objected oriented ,interpreted language,that includes many library packages",
+       "b)It is a well indented language",
+       "c)All I know is that it’s a programming language ",
+       "d)It’s a type of snake"
+   ],
+   "language": "python",
+   "weightage":[ 8, 4, 6, 2]
+},
+{
+   "q_id":"4",
+   "question" : "What is OOPs concept? ",
+   "options":[
+       "a) Classes , inheritance ,  and instantiation are crucial to make modules",
+       "b)They just help to structure the code",
+       "c)I have not learnt OOP",
+       "d)I am not sure what OOPs is."
+   ],
+   "language": "python",
+   "weightage":[ 8, 4, 6, 2]
+}

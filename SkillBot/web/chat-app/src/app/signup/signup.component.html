@@ -1,0 +1,44 @@
+<div class="wrapper">
+    <div class="page-header" style="background-image: url('./assets/img/login-image.jpg');">
+        <div class="filter"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mr-auto ml-auto">
+                      <div class="card card-register">
+                          <h3 class="title">Padhaariye</h3>
+                          
+                          <form class="register-form">
+                              <label>Email</label>
+                              <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus===true}">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                      <i class="nc-icon nc-email-85"></i>
+                                  </span>
+                                </div>
+
+                                  <input type="text" class="form-control" placeholder="Email" (focus)="focus=true" (blur)="focus=false" >   
+                              </div>
+
+                              <label>Password</label>
+                              <div class="input-group form-group-no-border" [ngClass]="{'input-group-focus':focus1===true}">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                      <i class="nc-icon nc-key-25"></i>
+                                  </span>
+                                </div>
+                                  <input type="password" class="form-control" placeholder="Password" (focus)="focus1=true" (blur)="focus1=false" >
+                              
+                                </div>
+                                <a [routerLink]="['/user-profile']" routerLinkActive="router-link-active"  [routerLink]="['/signup']"><button class="btn btn-danger btn-block btn-round">login</button></a>
+                                <a [routerLink]="['/register']" routerLinkActive="router-link-active" ><button class="btn btn-danger btn-block btn-round">Register</button></a>
+                          </form>
+                          <div class="forgot">
+                              <a href="#" class="btn btn-link btn-danger">Forgot password?</a>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+    </div>
+</div>

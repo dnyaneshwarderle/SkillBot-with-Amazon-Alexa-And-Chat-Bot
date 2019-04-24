@@ -1,0 +1,64 @@
+{
+    "user_login":[
+        {
+            "email_id":{}
+        }
+    ],
+
+    "learn_module":[
+        {
+            "perform_learn":{}
+        }
+    ],
+
+    "user_learn_info":[
+        {
+            "language_to_learn":{ "switch_context": "learn_module"},
+            "article_to_learn":{"switch_context":"learn_module"}
+        }
+    ],
+
+    "demographic_test":[
+        {
+            "perform_demographic_test": {}
+        }
+    ],
+
+    "test_module": [
+        {
+            "perform_test": {}
+        }
+    ],
+
+    "user_info":[
+        {
+            "language_to_test":{ "switch_context": "demographic_test"}
+        }
+    ],
+
+    "user_registration":[
+        {
+            "fname":{},
+            "lname":{}
+        },
+
+        {
+            "email_id":{},
+            "mobile":{}
+        },
+        {
+            "otp":{
+                "switch_context": "user_info"
+            }
+        }
+    ],
+    "fallback": [
+        "Please provide valid data for <<[KEY]>>",
+        "Invalid data for <<[KEY]>>",
+        "Sorry! Unable to understand <<[KEY]>>"
+    ],
+    "responses": [
+        "Please provide  data for <<[KEY]>>",
+        "Give me data for <<[KEY]>>"
+    ]
+}

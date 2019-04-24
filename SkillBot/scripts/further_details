@@ -1,0 +1,19 @@
+further details
+
+   // "test_process": [
+    //     {
+    //         "language_selection": {}
+    //     }
+    // ],
+
+    {
+            "programming_languages_known": {}
+        },
+        {
+            "programming_languages_2learn": {}
+        },
+
+      {
+          "otp":{   "switch": "test_process" }
+          
+      }

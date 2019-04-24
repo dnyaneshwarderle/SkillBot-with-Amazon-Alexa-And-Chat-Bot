@@ -1,0 +1,79 @@
+{
+    "begineer": {
+        "data_types": [
+            { 
+                "article_text": "str, lst, tuple",
+                "link": "",
+                "questions": ["q1",  "q3" ]
+            },
+            {
+                "article_text": "str, lst, tuple",
+                "link": "",
+                "questions": ["q1", "q2", "q3" ]
+            }
+        ],
+        "Syntax":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ],
+        "Variables":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ],
+        "Numbers":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ],
+        "Casting":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ],
+        "Srings":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ],
+        "Operators":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ],
+        "Lists":[
+            {
+                "article_text":",,",
+                "link":"",
+                "questions":["q","q","q","q","q"]
+            }
+        ]
+    },
+    "intermediate":{
+
+    },
+    "expert": {
+
+    },
+    "Advanced":[
+        {
+            "article_text":",,",
+            "link":"",
+            "questions":["q","q","q","q","q"]
+        }
+    ]
+    
+}
